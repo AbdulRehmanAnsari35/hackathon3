@@ -28,7 +28,7 @@ export default function ShoppingCart() {
           <div className="mt-8 flex-1 overflow-y-auto">
             <ul className="-my-6 divide-y divide-gray-200">
               {cartCount === 0 ? (
-                <h1 className="py-6">You don't have any items</h1>
+                <h1 className="py-6">You don&apos;t have any items</h1>
               ) : (
                 Object.values(cartDetails ?? {}).map((entry) => (
                   <li key={entry.id} className="flex py-6">

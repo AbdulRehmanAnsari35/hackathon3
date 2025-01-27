@@ -23,28 +23,27 @@ const Hero = () => {
           </h1>
           <p className="mb-8 leading-relaxed text-gray-300">
             Discover the latest AAA titles at unbeatable discounts and low
-            prices. Explore a wide range of games, from thrilling action-packed
-            adventures to immersive role-playing experiences, all designed to
-            take your gaming to the next level. Don't miss out on these
-            incredible deals — grab your favorite games now!
+            prices Explore a wide range of games from thrilling action packed
+            adventures to immersive role playing experiences all designed to
+            take your gaming to the next level Dont miss out on these
+            incredible deals grab your favorite games now!
           </p>
           <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
             <div className="flex h-12 w-64 divide-x overflow-hidden rounded-lg border">
               <Link href="/RPG"
-              className="flex w-1/3 items-center justify-center text-white transition duration-100 hover:bg-red-500 active:bg-gray-200"> 
-              Role-Play
+                className="flex w-1/3 items-center justify-center text-white transition duration-100 hover:bg-red-500 active:bg-gray-200"> 
+                Role-Play
               </Link>
               <Link href="/AAA"
-              className="flex w-1/3 items-center justify-center text-white transition duration-100 hover:bg-red-500 active:bg-gray-200"> 
-              Triple-A
+                className="flex w-1/3 items-center justify-center text-white transition duration-100 hover:bg-red-500 active:bg-gray-200"> 
+                Triple-A
               </Link>
-              <Link href="/SBG."
-              className="flex w-1/3 items-center justify-center text-white transition duration-100 hover:bg-red-500 active:bg-gray-200"> 
-              SandBox
+              {/* Corrected apostrophe in href */}
+              <Link href="/SBG"
+                className="flex w-1/3 items-center justify-center text-white transition duration-100 hover:bg-red-500 active:bg-gray-200"> 
+                SandBox
               </Link>
-
             </div>
-
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
